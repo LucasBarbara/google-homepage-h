@@ -14,11 +14,16 @@
   <body>
     <nav>
 
-      <div class="top-nav">
-        <img src="images/googlelogo.png" alt="Google logo">
-        <input type="text">
-        <a class="nav-item" href="#"><i class="material-icons">apps</i></a>
-        <button>Sign in</button>
+      <div class="flex-container-nav">
+        <div class="nav-item input">
+          <img src="images/googlelogo.png" alt="Google logo" id="logo">
+          <input type="text" value="build this webpage">
+          <i class="material-icons" id="search-icon">search</i>
+        </div>
+        <div class="nav-item sign-in">
+          <a href="#"><i class="material-icons">apps</i></a>
+          <button>Sign in</button>
+        </div>
       </div>
 
       <div class="bottom-nav">
@@ -27,7 +32,7 @@
         <a href="#">News</a>
         <a href="#">Images</a>
         <a href="#">Maps</a>
-        <a href="#">More</a>
+        <a href="#" id="more">More</a>
         <a href="#">Settings</a>
         <a href="#">Tools</a>
       </div>
