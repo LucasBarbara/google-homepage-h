@@ -4,4 +4,4 @@ Page built as a part of the **Odin Project** [curriculum](http://www.theodinproj
 
 ***
 
-You can see it in action here: 
+You can see it in action here: https://lucasbarbara.github.io/google-homepage-h/
