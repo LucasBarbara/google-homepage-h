@@ -1,3 +1,5 @@
+/* GENERAL STYLES  */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +15,8 @@ body {
   font-family: arial, sans-serif;
   font-size: 16px;
 }
+
+/* NAV STYLES */
 
 button {
 
@@ -112,4 +116,204 @@ input {
   position: absolute;
   left: 755px;
   top: 5px;
+}
+
+/* MAIN SECTION STYLES */
+
+a h2 {
+
+  color: #1a0dab;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 3px;
+}
+
+a p {
+
+  color: #006621;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+main {
+
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  margin: 15px 157px;
+  width: 650px;
+}
+
+table {
+
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+  margin-left: -17px;
+  width: 667px;
+}
+
+td {
+
+  font-size: 1.4em;
+  padding-left: 15px;
+}
+
+.ad {
+
+  border: 1px solid #006621;
+  border-radius: 3px;
+  font-size: 11px;
+  margin-right: 3px;
+  padding: 0 2px;
+}
+
+.arrow-drop-down {
+
+  top: 3px;
+  position: relative;
+}
+
+.box-header {
+
+  color: #a9a9aa;
+  font-size: 1.6em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.material-icons.md-18 { 
+  
+  font-size: 18px;
+}
+
+.bold {
+
+  font-weight: 600;
+}
+
+.question {
+
+  color: #4d4d5f;
+  display: block;
+  border-top: 1px solid #E5E5E5;
+  position: relative;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.question .material-icons {
+
+  color: #a9a9aa;
+  position: absolute;
+  right: 20px;
+  width: 15px;
+}
+
+.result {
+
+  padding: 20px 0;
+}
+
+.result a {
+
+  line-height: 1em;
+}
+.results {
+
+  margin-left: 4px;
+}
+
+.snippet {
+
+  line-height: 1.5em;
+}
+
+.sub-result {
+
+  display: inline-block;
+  margin: 20px 10px 0px 30px;
+  width: 250px;
+}
+
+#feedback {
+
+  font-size: 0.83em;
+  font-style: italic;
+  text-align: right;
+  padding-top: 3px;
+  padding-right: 15px;
+}
+
+
+#results-number, .date, #feedback a {
+
+  color: #777;
+}
+
+/* Related Searches Styles */
+
+div h3 {
+
+  color: #222;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 15px 0;
+}
+
+.searches-col {
+
+  float: left;
+  width: 50%;
+}
+
+.searches-col a {
+
+  color: #1a0dab;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+
+}
+
+.normal {
+
+  font-weight: 500;
+}
+
+.more-results {
+
+  clear: left;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  border: 2px solid red;
+}
+
+.more-results p {
+
+  display: inline-block;
+}
+
+.mr-arrow {
+
+  color: #4285F4;
+  position: relative;
+  bottom: 10px;
+  left: 8px;
+}
+
+.results-page a {
+
+  color: #4285F4;
+  margin-left: 8px;
+}
+
+#next {
+
+  margin-left: 50px;
+}
+
+#space{
+
+  width: 33px;
 }
